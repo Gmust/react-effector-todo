@@ -1,0 +1,25 @@
+
+
+.appWrapper{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "nav main main main main"
+    "nav main main main main"
+    "nav main main main main"
+    "nav main main main main";
+
+
+  .nav {
+    grid-area: nav;
+    background: black;
+    height: 53vw;
+  }
+
+  .main { grid-area: main; }
+
+
+}

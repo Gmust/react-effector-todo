@@ -1,0 +1,18 @@
+.navbarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  color: white;
+  margin: 30px;
+
+
+  li {
+    margin-bottom: 1em;
+  }
+
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
